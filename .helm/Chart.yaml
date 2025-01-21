@@ -1,0 +1,11 @@
+apiVersion: v2
+name: app
+version: 1.0.0
+
+dependencies:
+  - name: mysql
+    version: "~1"
+    repository: https://helm.wso2.com
+
+  - name: backend
+    version: "1.0.0"

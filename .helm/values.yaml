@@ -1,0 +1,8 @@
+backend:
+  limits:
+    cpu: 100m
+    memory: 256Mi
+
+werf:
+  image:
+    backend: "docker.io/lap1993/dj-app-werf:0.0.1"
